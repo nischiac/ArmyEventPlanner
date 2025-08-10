@@ -1,0 +1,70 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+  min-height: 100vh;
+  background-color: #f2f2f2; /* light background outside card */
+}
+
+.overlay {
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 1000px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-header {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.role-info {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* AddEvent and ViewEvents sections */
+.add-event-section,
+.view-events-section {
+  background-color: rgba(255, 255, 255, 0.15); /* more transparent */
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.add-event-section h3,
+.view-events-section h3 {
+  margin-bottom: 10px;
+  color: #003300;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 15px;
+  background-color: #006400;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #228B22;
+}
